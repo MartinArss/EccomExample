@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.31.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dto\Cadena\" />
+    <Folder Include="Dto\CarritoCompra\" />
+    <Folder Include="Dto\Ciudad\" />
+    <Folder Include="Dto\Cliente\" />
+    <Folder Include="Dto\Direccion\" />
+    <Folder Include="Dto\Empleado\" />
+    <Folder Include="Dto\Envio\" />
+    <Folder Include="Dto\EstadoCarrito\" />
+    <Folder Include="Dto\EstadoCuenta\" />
+    <Folder Include="Dto\EstadoEnvio\" />
+    <Folder Include="Dto\EstadoPago\" />
+    <Folder Include="Dto\Estado\" />
+    <Folder Include="Dto\EstadoSucursal\" />
+    <Folder Include="Dto\Genero\" />
+    <Folder Include="Dto\HistorialCompra\" />
+    <Folder Include="Dto\Marca\" />
+    <Folder Include="Dto\MetodoEnvio\" />
+    <Folder Include="Dto\MetodoPago\" />
+    <Folder Include="Dto\ModeloNegocio\" />
+    <Folder Include="Dto\Venta\" />
+    <Folder Include="Dto\TipoCadena\" />
+    <Folder Include="Dto\Sucursal\" />
+    <Folder Include="Dto\SucursalEmpleado\" />
+    <Folder Include="Dto\Subproducto\" />
+    <Folder Include="Dto\Servicio\" />
+    <Folder Include="Dto\Rol\" />
+    <Folder Include="Dto\Producto\" />
+    <Folder Include="Dto\Pais\" />
+    <Folder Include="Dto\Pago\" />
+  </ItemGroup>
+
+</Project>
